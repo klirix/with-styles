@@ -1,0 +1,36 @@
+{
+  "name": "with-styles",
+  "version": "1.0.0",
+  "description": "Simpler functional replacement for styled-components",
+  "main": "dist/index.js",
+  "author": "Askhat Saiapov",
+  "keywords": ["styles", "reactjs", "apollo", "reactjs"],
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build",
+    "precommit": "lint-staged"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klirix/with-styles.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
+    "prettier": "^1.7.4"
+  },
+  "dependencies": {
+    "react": "^16.5.2"
+  }
+}
