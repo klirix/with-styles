@@ -1,5 +1,5 @@
 {
-  "name": "with-styles",
+  "name": "comp-with-styles",
   "version": "1.0.0",
   "description": "Simpler functional replacement for styled-components",
   "main": "dist/index.js",

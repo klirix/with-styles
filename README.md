@@ -1,5 +1,17 @@
 ## withStyles
 
+# Installation
+
+```
+yarn add comp-with-styles
+```
+
+or
+
+```
+npm i -S comp-with-styles
+```
+
 A super-simple CSS-in-JS functional replacement for styled components. It could be used with the whole style as a function, consuming props, and also, every individual style can consume props. 
 
 Additionaly, it comes with a HOF to create composable components for compose-freaks.
